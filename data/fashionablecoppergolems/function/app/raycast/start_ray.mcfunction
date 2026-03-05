@@ -1,8 +1,8 @@
-scoreboard players set &hit riding_cast_temp_copper_golem 0
-scoreboard players set &distance riding_cast_temp_copper_golem 0
+scoreboard players set @s fashionablecoppergolems.raycast_hit 0
+scoreboard players set @s fashionablecoppergolems.raycast_distance 0
 
-tag @s add riding_ray
+tag @s add fashionablecoppergolems.riding_ray
 function fashionablecoppergolems:app/raycast/ray
-tag @s remove riding_ray
+tag @s remove fashionablecoppergolems.riding_ray
 
-scoreboard players set &start riding_cast_temp_copper_golem 1
+scoreboard players set @s fashionablecoppergolems.raycast_start 1

@@ -1,1 +1,1 @@
-scoreboard players set &hit riding_cast_temp_copper_golem 1
+scoreboard players set @a[tag=fashionablecoppergolems.riding_ray] fashionablecoppergolems.raycast_hit 1
