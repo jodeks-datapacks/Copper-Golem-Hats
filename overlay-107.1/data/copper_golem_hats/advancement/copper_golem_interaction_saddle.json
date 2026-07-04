@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "item": {
-          "items": "minecraft:shears"
+          "items": "#copper_golem_hats:saddle"
         },
         "entity": {
           "entity_type": "minecraft:interaction",
@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "copper_golem_hats:app/interaction/right_click_shears"
+    "function": "copper_golem_hats:app/interaction/right_click_saddle"
   }
 }

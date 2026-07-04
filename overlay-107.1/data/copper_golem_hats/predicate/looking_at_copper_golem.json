@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type_specific/player": {
+      "looking_at": {
+        "entity_type": "#copper_golem_hats:copper_golem_interact"
+      },
+      "input": {
+        "sneak": true
+      }
+    }
+  }
+}
