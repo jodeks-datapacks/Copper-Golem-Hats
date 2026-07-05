@@ -7,7 +7,7 @@
           "items": "#copper_golem_hats:head"
         },
         "entity": {
-          "type": "minecraft:interaction",
+          "entity_type": "minecraft:interaction",
           "nbt": "{data:{Marker_Copper_Golem:1b}}"
         }
       }
