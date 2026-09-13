@@ -7,8 +7,16 @@
           "items": "minecraft:shears"
         },
         "entity": {
-          "entity_type": "minecraft:interaction",
-          "nbt": "{data:{Marker_Copper_Golem:1b}}"
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:entity_type": "minecraft:interaction",
+            "minecraft:components": {
+              "minecraft:custom_data": {
+                "Marker_Copper_Golem": true
+              }
+            }
+          }
         }
       }
     }
