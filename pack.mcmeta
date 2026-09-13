@@ -9,12 +9,6 @@
       {
         "text": "\"Copper Golem Hats\" (copper_golem_hats)"
       },
-      "\n",
-      {
-        "translate": "copper_golem_hats.description",
-        "fallback": "Put any item on the head of copper golems!",
-        "color": "#aaaaaa"
-      },
       "\n\n",
       {
         "translate": "jodek.version",
@@ -24,7 +18,7 @@
         "text": " "
       },
       {
-        "text": "1.0.4",
+        "text": "1.1.0",
         "color": "#55ff55"
       },
 
